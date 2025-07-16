@@ -6,6 +6,6 @@ No?
 Well you can do that... soon.
 
 ## Credits
-Your Average FNF Pro - Original "VS Stev" mod, Original versions of Hello, I Can Has Diamonds, Vibing, Spammo and Epic Guitar.
+Your Average FNF Pro - Original "VS Stev" mod, Original versions of Hello, I Can Has Diamonds, Vibing, Spammo, Emerald, Tape and Epic Guitar.
 
 Denpa Engine Creators - Denpa Engine.
