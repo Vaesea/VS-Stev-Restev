@@ -102,7 +102,7 @@ class TitleState extends MusicBeatState
 					if(updateVersion != curVersion) {
 						trace('versions arent matching!');
 						#if !debug
-						mustUpdate = true;
+						mustUpdate = false;
 						#else
 						trace('you\'re on debug so you get a pass');
 						mustUpdate = false;

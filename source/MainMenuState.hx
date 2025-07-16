@@ -39,7 +39,7 @@ class MainMenuState extends MusicBeatState
 
 	var curDifficulty:Int = -1;
 	
-	final optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options', 'patch', 'soundtest'];
+	final optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options'];
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
@@ -146,12 +146,6 @@ class MainMenuState extends MusicBeatState
 			case 'options':
 				menuItem.x = JSON.offsets[3][0];
 				menuItem.y = JSON.offsets[3][1];
-			case 'patch':
-				menuItem.x = JSON.offsets[4][0];
-				menuItem.y = JSON.offsets[4][1];
-			case 'soundtest':
-				menuItem.x = JSON.offsets[5][0];
-				menuItem.y = JSON.offsets[5][1];
 			}
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
@@ -341,8 +335,6 @@ class MainMenuState extends MusicBeatState
 							case 'freeplay': MusicBeatState.switchState(new FreeplayState());
 							case 'credits': MusicBeatState.switchState(new CreditsState());
 							case 'options': MusicBeatState.switchState(new options.OptionsState());
-							case 'patch': MusicBeatState.switchState(new PatchState());
-							case 'soundtest': MusicBeatState.switchState(new SoundTestState());
 						}
 					});
 				}
