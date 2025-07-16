@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="VS Dave And Bambi: Expunged's Trolling" file="ExpungedsTrolling" packageName="com.etteam.expungedstrolling" package="com.etteam.expungedstrolling" main="Main" version="0.2.8" company="ETteam" />
+	<app title="VS Stev Restev" file="VsStevRestev" packageName="com.vaesea.restev" package="com.vaesea.restev" main="Main" version="0.2.8" company="Vaesea" />
 	<app preloader="flixel.system.FlxPreloader" />
 
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/>
